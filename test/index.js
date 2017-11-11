@@ -47,8 +47,7 @@ tap.test('should use process.cwd', assert => {
     .then(_ => generator(opts))
     .then(files => {
       var file = path.dirname(files.pop())
-
-      assert.equal('/tmp/foo/test', file)
+      assert.equal('/private/tmp/foo/test', file)
     })
 
     .then(_ => process.chdir(cwd)) // return to cwd
