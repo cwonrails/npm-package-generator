@@ -116,22 +116,22 @@ generator(options)
 
 #### options
 
-option        | description                               | default                              
+option        | description                               | default
 ------------- | ----------------------------------------- | -------------------------------------
-`name`        | package name                              |                                      
-`path`        | installation path                         |                                      
-`author`      | author name                               | `process.env.NPM_AUTHOR_NAME`        
+`name`        | package name                              |
+`path`        | installation path                         |
+`author`      | author name                               | `process.env.NPM_AUTHOR_NAME`
 `description` | package description                       | `process.env.NPM_PACKAGE_DESCRIPTION`
-`author`      | author name                               | `process.env.NPM_AUTHOR_NAME`        
-`email`       | author email                              | `process.env.NPM_AUTHOR_EMAIL`       
-`website`     | author website                            | `process.env.NPM_AUTHOR_WEBSITE`     
-`github`      | github account                            | `process.env.NPM_GITHUB_USERNAME`    
-`install`     | run `npm install` and update dependencies | `false`                              
+`author`      | author name                               | `process.env.NPM_AUTHOR_NAME`
+`email`       | author email                              | `process.env.NPM_AUTHOR_EMAIL`
+`website`     | author website                            | `process.env.NPM_AUTHOR_WEBSITE`
+`github`      | github account                            | `process.env.NPM_GITHUB_USERNAME`
+`install`     | run `npm install` and update dependencies | `false`
 
 ---
-> :copyright: [ahmadnassri.com](https://www.ahmadnassri.com/)  · 
-> License: [ISC][license-url]  · 
-> Github: [@ahmadnassri](https://github.com/ahmadnassri)  · 
+> :copyright: [ahmadnassri.com](https://www.ahmadnassri.com/)  ·
+> License: [ISC][license-url]  ·
+> Github: [@ahmadnassri](https://github.com/ahmadnassri)  ·
 > Twitter: [@ahmadnassri](https://twitter.com/ahmadnassri)
 
 [license-url]: http://choosealicense.com/licenses/isc/
